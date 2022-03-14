@@ -1,0 +1,16 @@
+POST  http://localhost:8080/api/v0/data?userId=1
+Content-Type: application/json
+
+{
+  "name": "test",
+  "test": "test1",
+  "address": {
+    "street_number": 1,
+    "street": "main"
+  }
+}
+
+###
+GET  http://localhost:8080/api/v0/data?userId=1
+
+###
